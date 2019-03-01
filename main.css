@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+
+  /* Carousel */
+
+  #carousel {
+  padding-top: 2.5%;
+}
+
+ #carousel img {
+  height: 50vh;
+  margin: auto;
+}
+
+  /* Jumbotron */
+
+  .jumbotron {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+   a, a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .see_more {
+    padding-top: 5%;
+  }
+
+  @media only screen and (min-width: 1024px)
+  {
+    .navbar-nav {
+      margin-left: 65%;
+    }
+
+    #carousel {
+      padding-top: 12.5%;
+    }
+  }
+
+@media only screen and (min-width: 1268px)
+{
+    .navbar-brand {
+      font-size: 1.5em;
+      margin-left: 2.5%;
+    }
+
+    .navbar-nav {
+      margin-left: 80%;
+    }
+
+    .navbar-nav li {
+      justify-content: space-between;
+    }
+
+    #carousel img {
+      max-width: 40%;
+    }
+
+    #carousel {
+      padding-top: 5%;
+    }
+}
